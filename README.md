@@ -76,7 +76,7 @@ python perform_analysis.py
 Generate data
 ```bash
 sbatch data_gen.sh
-
+---
 
 Run detection + analysis
 
