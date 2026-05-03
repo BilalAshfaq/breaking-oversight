@@ -79,10 +79,9 @@ sbatch data_gen.sh
 
 
 Run detection + analysis
+
 ```bash
 sbatch detect.sh
-
-
 
 ```
 ## 📊Outputs
@@ -90,9 +89,13 @@ sbatch detect.sh
 All results are saved in the outputs/ directory:
 
 qwen_hidden_rewrites.csv → generated dataset
+
 blind_detection_results.csv → detection results
+
 analysis_with_metrics.csv → computed metrics
+
 Plots include:
+
 Detection performance
 Semantic similarity
 Word count comparison
