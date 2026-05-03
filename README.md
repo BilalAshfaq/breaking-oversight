@@ -51,7 +51,7 @@ The pipeline consists of three main stages:
 ### Install dependencies
 ```bash
 pip install transformers datasets sentence-transformers scikit-learn pandas seaborn matplotlib
----
+
 ```
 ## Model Used
 Qwen/Qwen2.5-14B-Instruct
@@ -69,19 +69,19 @@ python detection_pipeline.py
 
 Step 3: Run analysis
 python perform_analysis.py
----
+
 ```
 ### Option 2: SLURM (recommended for GPU)
 
 Generate data
 ```bash
 sbatch data_gen.sh
----
+
 
 Run detection + analysis
 ```bash
 sbatch detect.sh
----
+
 
 
 ```
