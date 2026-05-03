@@ -32,13 +32,16 @@ The pipeline consists of three main stages:
 
 ## 📁 Project Structure
 
-├── dataset_gen_pipeline.py # Data generation (normal + hidden text)
-├── detection_pipeline.py # Detection methods
-├── perform_analysis.py # Metrics + visualization
-├── data_gen.sh # SLURM script for generation
-├── detect.sh # SLURM script for detection + analysis
-├── outputs/ # Generated data, results, plots
-├──  README.md
+```
+.
+├── dataset_gen_pipeline.py     # Data generation (normal + hidden text)
+├── detection_pipeline.py       # Detection methods
+├── perform_analysis.py         # Metrics + visualization
+├── data_gen.sh                 # SLURM script for generation
+├── detect.sh                   # SLURM script for detection + analysis
+├── outputs/                    # Generated data, results, plots
+└── README.md
+```
 
 
 ---
