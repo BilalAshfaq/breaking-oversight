@@ -72,12 +72,15 @@ python perform_analysis.py
 ---
 ```
 ### Option 2: SLURM (recommended for GPU)
+
 Generate data
+```bash
 sbatch data_gen.sh
+---
 
 Run detection + analysis
+```bash
 sbatch detect.sh
-
 ---
 
 
