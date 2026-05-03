@@ -52,9 +52,11 @@ The pipeline consists of three main stages:
 ```bash
 pip install transformers datasets sentence-transformers scikit-learn pandas seaborn matplotlib
 
-## Model used
+```markdown
+## Model Used
 Qwen/Qwen2.5-14B-Instruct
 
+```markdown
 ## ▶️ Running the Pipeline
 
 ### Option 1: Local execution
@@ -76,7 +78,8 @@ sbatch data_gen.sh
 Run detection + analysis
 sbatch detect.sh
 
-## 📊 Outputs
+```markdown
+## 📊Outputs
 
 All results are saved in the outputs/ directory:
 
